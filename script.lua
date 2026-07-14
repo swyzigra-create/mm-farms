@@ -14,8 +14,9 @@ getgenv().GunAccuracy = getgenv().GunAccuracy or 25
 -- Локальная переменная для отслеживания уникального ID запущенного цикла Autofarm
 local currentFarmSession = 0
 
--- Загрузка библиотеки Rayfield UI
+-- Загрузка библиотеки Rayfield UI 
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu'))()
+
 
 -- Создание главного окна
 local Window = Rayfield:CreateWindow({
