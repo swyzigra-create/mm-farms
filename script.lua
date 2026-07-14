@@ -17,7 +17,6 @@ local currentFarmSession = 0
 -- Загрузка библиотеки Rayfield UI 
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu'))()
 
-
 -- Создание главного окна
 local Window = Rayfield:CreateWindow({
    Name = "GitHub Pro Hub | MM2 Edition",
